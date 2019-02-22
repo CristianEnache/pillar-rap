@@ -258,3 +258,29 @@ body {
         text-align: left;
     }
 }
+
+
+
+.scroller{
+    width: 100%;
+}
+
+
+@media only screen and (min-width: 1200px) {
+    .scroller img{
+        height:520px;
+    }
+}
+
+
+@media only screen and (min-width: 400px) {
+
+    .scroller{
+        overflow-x: scroll;
+    }
+
+    .scroller img{
+        height:800px;
+    }
+}
+
