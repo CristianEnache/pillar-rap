@@ -268,19 +268,20 @@ body {
 
 @media only screen and (min-width: 1200px) {
     .scroller img{
-        height:520px;
+        width:100%;
+        height:auto;
     }
 }
 
 
-@media only screen and (min-width: 400px) {
+@media only screen and (min-width: 400px) and (max-width: 1199px) {
 
     .scroller{
         overflow-x: scroll;
     }
 
-    .scroller img{
-        height:800px;
-    }
+    /*.scroller img{*/
+        /*height:800px;*/
+    /*}*/
 }
 
