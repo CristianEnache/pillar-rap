@@ -285,3 +285,14 @@ body {
     /*}*/
 }
 
+.btn-white{
+    background-color: #fff;
+    color: #19202d;
+}
+
+.btn-huge {
+    font-size: 32px;
+    font-weight: bold;
+    border-radius: 0;
+    padding: 9px 50px;
+}
